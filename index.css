@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    text-align: center;
+    box-sizing: border-box;
+    padding:0;
+    font-family: sans-serif;
+}
+html,body{
+    padding:15px;
+    background-color: #000;
+}
+.heading{
+    margin:15px;
+    padding:5px;
+    color:rgb(55, 174, 203);
+}
+.content{
+    border-color: black;
+    border-radius: 5px;
+    background:linear-gradient(45deg,#04f7f3,#44bfbd,rgb(12, 124, 189));
+    color: #fff;
+    height:70vh;
+    margin:0 70vh;
+    padding:120px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .search{
+    padding:10px;
+    display: flex;
+    margin:10px;
+    justify-content: space-between;
+}
+.search input{
+    border-radius: 20px;
+    padding:10px 15px;
+    margin:2px;
+    border-style: none;
+    font-size: 12px;
+    text-align: left;
+}
+.search button{
+    margin:1px;
+   font-size:35px;
+   color: #fff;
+   background: none;
+   border: none;
+}
+.content button ion-icon{
+    align-items: center;
+}
+.content .Weather{
+    color: #ffffffeb;
+    margin:40px;
+    text-align: center;
+    padding:10px;
+}
+.Weather img{
+    height:80px;
+    width:80px;
+}
+.Weather h1{
+    font-size: 30px;
+}
+.Weather h2{
+    font-size:20px;
+}
+.Weather .city{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:991px){
+    .heading{
+        padding: 2rem 3%;
+    }
+    .content{
+        border-color: black;
+        border-radius: 5px;
+        background:linear-gradient(45deg,#04f7f3,#44bfbd,rgb(12, 124, 189));
+        color: #fff;
+        height:70vh;
+        margin:10vh;
+        position: relative;
+    }
+}
+@media (max-width:768px) {
+    .content{
+        border-color: black;
+        border-radius: 5px;
+        background:linear-gradient(45deg,#04f7f3,#44bfbd,rgb(12, 124, 189));
+        color: #fff;
+        height:70vh;
+        margin:10vh;
+        position: relative;
+    }
+}
+@media (max-width:617px) {
+    .content{
+        border-color: black;
+        border-radius: 5px;
+        background:linear-gradient(45deg,#04f7f3,#44bfbd,rgb(12, 124, 189));
+        color: #fff;
+        height:70vh;
+        margin:10vh
+    }
+}
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+    .content{
+        border-color: black;
+        border-radius: 5px;
+        background:linear-gradient(30deg,#04f7f3,#44bfbd,rgb(12, 124, 189));
+        color: #fff;
+        height:70vh;
+        margin-left:0vh;
+    }
+}
